@@ -1087,7 +1087,7 @@ namespace Assessment_ClientApp2
                 }
 
                 //
-                // Display list of filtered monsters
+                // Display List of Filtered Monsters
                 //
                 Console.WriteLine();
                 Console.WriteLine($"Monsters with attitude: {selectedAttitude}: ");
