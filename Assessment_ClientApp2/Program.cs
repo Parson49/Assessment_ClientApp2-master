@@ -1087,7 +1087,7 @@ namespace Assessment_ClientApp2
                 // Display list of filtered monsters
                 //
                 Console.WriteLine();
-                Console.WriteLine($"Monsters with attitude: {selectedAttitude}:");
+                Console.WriteLine($"Monsters with attitude: {selectedAttitude}: ");
                 Console.WriteLine();
                 MonsterInfoTable();
                 foreach (Monster monster in filteredMonsters)
