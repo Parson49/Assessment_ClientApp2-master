@@ -302,10 +302,6 @@ namespace Assessment_ClientApp2
             //
             // add monster object property values
             //
-            //
-            // Update monster temperment
-            //
-
             while (!validInput)
             {
                 DisplayScreenHeader("Add Monster");
@@ -1065,8 +1061,15 @@ namespace Assessment_ClientApp2
             DisplayContinuePrompt();
         }
 
+        /// <summary>
+        /// Filter monsters
+        /// </summary>
+        /// <param name="monsters"></param>
         static void DisplayFilterByTemperment(List<Monster> monsters)
         {
+            //
+            // Get attitude from user
+            //
             Monster.EmotionalState selectedAttitude;
             List<Monster> filteredMonsters = new List<Monster>();
 
@@ -1223,6 +1226,9 @@ namespace Assessment_ClientApp2
             //Console.WriteLine("\t" + monster.Greeting());
         }
 
+        /// <summary>
+        /// Create table to display monster properties
+        /// </summary>
         static void MonsterInfoTable()
         {
             Console.WriteLine(
