@@ -1,0 +1,5 @@
+﻿Sid,145,happy,elf,true,12/12/1873
+Lucy,125,bored,undead,true,10/09/1894
+Bill,934,sad,orc,false,02/01/1085
+Wuxian,1987,angry,amazonian,false,01/01/0032
+Wangji,1990,sad,elf,true,02/29/0029
